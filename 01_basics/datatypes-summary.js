@@ -35,4 +35,24 @@ const myFunction = function(){
     console.log("Hello World")
 };
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+
+let myComapanyName = "webperfectodotcom"
+let anotherCompany = myComapanyName
+anotherCompany = "Googledotcom"
+
+//console.log(anotherCompany)
+// console.log(myComapanyName)
+
+let userOne = {
+    email: "google.com",
+    upi : "upi.rbl"
+}
+let userTwo = userOne
+userTwo.email = "almaspatel347@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
